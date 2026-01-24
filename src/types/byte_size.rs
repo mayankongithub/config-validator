@@ -1,2 +1,1 @@
-// ByteSize implementation
-
+pub struct ByteSize(u64);

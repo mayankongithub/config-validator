@@ -1,0 +1,17 @@
+# Compiled binaries and build artifacts
+target/
+Cargo.lock
+
+# Backup files from editors
+*.rs.bk
+*~
+*.swp
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
