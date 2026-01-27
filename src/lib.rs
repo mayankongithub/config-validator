@@ -1,8 +1,6 @@
-pub mod config;
 pub mod error;
 pub mod validation;
-pub mod types;
+pub mod config;
 
-pub use config::host::{Host, HostRole};
-pub use error::ValidationError;
-pub use validation::Validate;
+pub use validation::traits::Validate;
+pub use config::{Host, HostRole, NetworkInterface, NetworkType};
